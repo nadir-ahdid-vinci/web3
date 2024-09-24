@@ -23,7 +23,7 @@ const FeedBack = () => {
         const good = (clicks.good*1)
         const bad = (clicks.bad*-1)
 
-        const average = (good + bad) / 3
+        const average = (good - bad) / clicks.total
 
         return average
     }
