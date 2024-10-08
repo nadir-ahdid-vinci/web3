@@ -7,20 +7,20 @@ const ProviderWrapper = (props) => {
         good : 0, ok : 0, bad : 0
     });
 
-    const increaseGood = () {
-        setNbClicks(...nbClicks, good = good+1)
+    const increaseGood = () => {
+        return setNbClicks(...nbClicks, good = good+1)
     }
 
-    const increaseOk = () {
-        setNbClicks(...nbClicks, ok = ok+1)
+    const increaseOk = () => {
+        return setNbClicks(...nbClicks, ok = ok+1)
     }
 
-    const increaseBad = () {
-        setNbClicks(...nbClicks, bad = bad+1)
+    const increaseBad = () => {
+        return setNbClicks(...nbClicks, bad = bad+1)
     }
 
-    const resetAll = () {
-        setNbClicks(good = 0, bad = 0, ok = 0)
+    const resetAll = () => {
+        return setNbClicks(good = 0, bad = 0, ok = 0)
     }
 
     const exposedValue = {
