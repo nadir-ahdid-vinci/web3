@@ -37,4 +37,4 @@ const ProviderWrapper = (props) => {
 
 }
 
-export default providerWrapper
+export default ProviderWrapper
