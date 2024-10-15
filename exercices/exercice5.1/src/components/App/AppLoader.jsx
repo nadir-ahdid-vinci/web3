@@ -1,4 +1,4 @@
-import { ProviderWrapper as LanguageProviderWrapper } from "../../contexts/LanguageContext";
+import { ProviderWrapper as LanguageProviderWrapper } from "../../context/countersContext";
 import App from "../App/App"
 
 const AppLoader= () => {
